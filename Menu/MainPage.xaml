@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu.MainPage">
+
+    <VerticalStackLayout Padding="30">
+        <Button Text="Programa 1"
+                Clicked="Button_Clicked"
+                Padding="10"/>
+        <Button Text="Programa 2"
+                Clicked="Button_Clicked_1"
+                Padding="10"/>
+        <Button Text="Programa 3"
+                Clicked="Button_Clicked_2"
+                Padding="10"/>
+        <Button Text="Programa 4"
+                Clicked="Button_Clicked_3"
+                Padding="10"/>
+        <Button Text="Programa 5"
+                Clicked="Button_Clicked_4"
+                Padding="10"/>
+        <Button Text="Programa 6"
+                Clicked="Button_Clicked_5"/>
+    </VerticalStackLayout>
+
+</ContentPage>
