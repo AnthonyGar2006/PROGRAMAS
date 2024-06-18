@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu.Langosta"
+             Title="Langosta">
+    <ScrollView>
+
+    <VerticalStackLayout>
+
+        <Label Text="Langosta ahumada" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+        <Entry x:Name="Platos" Placeholder="Ingrese numero de personas" Keyboard="Numeric" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+
+
+        <Button Text="Calcular" Clicked="Button_Clicked"  VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Label x:Name="Resulatdo" Text="El calculo es" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+    </VerticalStackLayout>
+
+    </ScrollView>
+</ContentPage>
