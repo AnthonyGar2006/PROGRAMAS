@@ -6,7 +6,8 @@
     <VerticalStackLayout Padding="30">
         <Button Text="Programa 1"
                 Clicked="Button_Clicked"
-                Padding="10"/>
+                Padding="10"
+                BackgroundColor="AliceBlue"/>
         <Button Text="Programa 2"
                 Clicked="Button_Clicked_1"
                 Padding="10"/>
